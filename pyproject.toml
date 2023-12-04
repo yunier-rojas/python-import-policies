@@ -1,7 +1,8 @@
 [tool.poetry]
 name = "python-import-policies"
-version = "0.0.0"
+version = "0.0.1"
 description = "Import Policies"
+license = "MIT"
 authors = ["Yunier Rojas <yunier@sombra.cc>"]
 readme = "README.md"
 packages = [{ include = "import_policies" }]
