@@ -3,6 +3,7 @@ release:
   image: python:3.11
   before_script:
     - pip install poetry==1.6.1
+    - poetry install --with=ci
   script:
     - git remote set-url --push origin https://gitlab-ci-token:${SOMBRA_BOT_TOKEN}@gitlab.com/$CI_PROJECT_PATH.git
     - git remote show origin
