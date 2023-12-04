@@ -7,3 +7,4 @@ include:
   - .gitlab/qa.yml
   - .gitlab/security.yml
   - .gitlab/test.yml
+  - .gitlab/release.yml
