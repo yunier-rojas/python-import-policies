@@ -4,4 +4,6 @@ ci: qa-all security coverage
 
 .PHONY: release
 release:
+	poetry run semantic-release version
+	poetry run twine upload dist/*
 	poetry run semantic-release publish

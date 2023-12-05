@@ -26,6 +26,7 @@ import-linter = "^1.12.1"
 
 [tool.poetry.group.ci.dependencies]
 python-semantic-release = "^8.3.0"
+twine = "^4.0.2"
 
 
 [tool.poetry.group.local.dependencies]
