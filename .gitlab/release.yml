@@ -1,14 +1,9 @@
 release:
+  image: node:latest
   stage: release
-  image: python:3.11
   variables:
-    GIT_STRATEGY: clone
-    GL_TOKEN: $GL_TOKEN
-  before_script:
-    - pip install poetry==1.6.1
-    - poetry install --with=ci
-    - git checkout -B "$CI_COMMIT_REF_NAME" "$CI_COMMIT_SHA"
+    GITLAB_TOKEN: $GITLAB_TOKEN
   script:
-    - make release
-  only:
-    - main
+    - npx semantic-release
+#  only:
+#    - main
