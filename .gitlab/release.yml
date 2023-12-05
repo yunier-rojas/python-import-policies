@@ -22,6 +22,6 @@ release:
     - pip install poetry==1.6.1
     - poetry install --with=ci
     - git remote set-url --push origin https://gitlab-ci-token:${PROJECT_ACCESS_TOKEN}@gitlab.com/$CI_PROJECT_PATH.git
-#    - git checkout -B "$CI_COMMIT_REF_NAME" "$CI_COMMIT_SHA"
+    - git checkout -B "$CI_COMMIT_REF_NAME" "$CI_COMMIT_SHA"
   script:
     - make release
