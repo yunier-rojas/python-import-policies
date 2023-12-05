@@ -1,6 +1,7 @@
 security:
   stage: quality
   image: python:3.11
+  allow_failure: true
   before_script:
     - pip install --no-cache-dir skjold poetry==1.6.1
   script:

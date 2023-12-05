@@ -3,6 +3,7 @@ release:
   image: python:3.11
   variables:
     GIT_STRATEGY: clone
+    GL_TOKEN: $GL_TOKEN
   before_script:
     - pip install poetry==1.6.1
     - poetry install --with=ci
