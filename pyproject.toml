@@ -46,4 +46,6 @@ branch = "main"
 version_toml = [
     "pyproject.toml:tool.poetry.version",
 ]
+upload_to_pypi = true
+upload_to_release = true
 build_command = "poetry build"
