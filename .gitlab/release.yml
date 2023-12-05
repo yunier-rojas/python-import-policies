@@ -1,9 +1,12 @@
 release:
   stage: release
   image: python:3.11
+  variables:
+    GIT_STRATEGY: clone
   before_script:
     - pip install poetry==1.6.1
     - poetry install --with=ci
+    - git reset --hard HEAD
   script:
     - make release
   only:
