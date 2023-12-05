@@ -17,7 +17,7 @@ release:
   variables:
     GITLAB_TOKEN: ${{ GITLAB_TOKEN }}
     PYPI_TOKEN: ${{ PYPI_TOKEN }}
-  pre_script:
+  before_script:
     - pip install poetry==1.2.2
     - poetry install --with=ci
     - git remote set-url --push origin https://gitlab-ci-token:${PROJECT_ACCESS_TOKEN}@gitlab.com/$CI_PROJECT_PATH.git
