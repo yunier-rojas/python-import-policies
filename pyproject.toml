@@ -41,7 +41,6 @@ build-backend = "poetry.core.masonry.api"
 line-length = 120
 
 [tool.semantic_release]
-remote = "gitlab"
 branch = "main"
 version_toml = [
     "pyproject.toml:tool.poetry.version",
@@ -49,3 +48,7 @@ version_toml = [
 upload_to_pypi = true
 upload_to_release = true
 build_command = "poetry build"
+
+[tool.semantic_release.remote]
+type = "gitlab"
+token = { env = "GITLAB_TOKEN" }
