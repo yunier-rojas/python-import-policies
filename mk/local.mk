@@ -6,5 +6,5 @@ ci: qa-all security coverage
 release:
 	poetry run semantic-release version
 	poetry build
-	poetry run twine upload dist/*
+	#poetry run twine upload dist/*
 	poetry run semantic-release publish
