@@ -6,7 +6,7 @@ release:
   before_script:
     - pip install poetry==1.6.1
     - poetry install --with=ci
-    - git checkout -B "$CI_BUILD_REF_NAME" "$CI_BUILD_REF"
+    - git checkout -B "$CI_COMMIT_REF_NAME" "$CI_COMMIT_SHA"
   script:
     - make release
   only:
