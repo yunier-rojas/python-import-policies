@@ -3,6 +3,9 @@ release:
   stage: release
   variables:
     GITLAB_TOKEN: $GITLAB_TOKEN
+    PYPI_TOKEN: ${{ PYPI_TOKEN }}
+  before_script:
+    - npm install
   script:
     - npx semantic-release
 #  only:

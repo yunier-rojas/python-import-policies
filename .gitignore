@@ -172,6 +172,9 @@ poetry.toml
 # SQLite
 *.db
 
+# NodeJS
+node_modules
+
 # other
 .DS_Store
 .skjold_cache
