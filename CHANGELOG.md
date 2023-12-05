@@ -2,6 +2,17 @@
 
 
 
+## v0.0.1 (2023-12-05)
+
+### Fix
+
+* fix: move to semantic-release ([`36df91c`](https://gitlab.com/sombrahq/python-libs/python-import-policies/-/commit/36df91c5a4248429337e9668dfda1eb2d0b90575))
+
+### Unknown
+
+* Merge remote-tracking branch &#39;origin/semantic-release&#39; into semantic-release ([`ea45225`](https://gitlab.com/sombrahq/python-libs/python-import-policies/-/commit/ea452253a218adae67f1f2c394f92e26d05af6f6))
+
+
 ## v0.0.0 (2023-12-05)
 
 ### Chore
@@ -40,10 +51,6 @@
 
 * chore: remove debug code ([`5b1fcb5`](https://gitlab.com/sombrahq/python-libs/python-import-policies/-/commit/5b1fcb5887a8187b9a8e158790004aa14cb7ee0d))
 
-* chore: remove debug code ([`e447942`](https://gitlab.com/sombrahq/python-libs/python-import-policies/-/commit/e4479425ea553174d54cf2488e4a9541170d34e9))
-
-* chore: remove debug code ([`37cf9f2`](https://gitlab.com/sombrahq/python-libs/python-import-policies/-/commit/37cf9f21199459636ea620c01cb242e50667fe89))
-
 ### Unknown
 
 * Merge branch &#39;semantic-release&#39; into &#39;main&#39;
@@ -69,15 +76,3 @@ See merge request sombrahq/python-libs/python-import-policies!15 ([`43774a7`](ht
 chore: remove debug code
 
 See merge request sombrahq/python-libs/python-import-policies!14 ([`0c8ac30`](https://gitlab.com/sombrahq/python-libs/python-import-policies/-/commit/0c8ac30314b7d4a123e32a2da3f956696c620a5d))
-
-* Merge branch &#39;another-try&#39; into &#39;main&#39;
-
-chore: remove debug code
-
-See merge request sombrahq/python-libs/python-import-policies!13 ([`3c31d1a`](https://gitlab.com/sombrahq/python-libs/python-import-policies/-/commit/3c31d1ab4756bf7a7798b8c4563c4113e884a050))
-
-* Merge branch &#39;fix-semantic-release&#39; into &#39;main&#39;
-
-chore: add GL token
-
-See merge request sombrahq/python-libs/python-import-policies!11 ([`0a202e7`](https://gitlab.com/sombrahq/python-libs/python-import-policies/-/commit/0a202e7460b6ad3650b53b347e28231f7b17c128))
