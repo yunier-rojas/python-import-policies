@@ -10,5 +10,6 @@ release:
     - git remote set-url --push origin https://gitlab-ci-token:${GITLAB_TOKEN}@gitlab.com/$CI_PROJECT_PATH.git
     - python3 --version
     - pip --version
+    - rm /usr/lib/python3.11/EXTERNALLY-MANAGED
   script:
     - npx semantic-release
