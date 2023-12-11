@@ -12,7 +12,6 @@ maintainers = [
 repository = "https://gitlab.com/sombrahq/python-libs/python-import-policies"
 keywords = ["python", "import", "policy"]
 classifiers = [
-    'Programming Language :: Python :: Implementation :: CPython',
     'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
@@ -26,7 +25,6 @@ import-linter = "^1.12.1"
 
 [tool.poetry.group.ci.dependencies]
 python-semantic-release = "^8.3.0"
-
 
 [tool.poetry.group.local.dependencies]
 skjold = "^0.6.1"
