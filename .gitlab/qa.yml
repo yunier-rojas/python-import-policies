@@ -1,7 +1,0 @@
-qa:
-  stage: quality
-  image: python:3.11
-  before_script:
-    - pip install --no-cache-dir pre-commit
-  script:
-    - make qa
