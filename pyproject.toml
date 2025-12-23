@@ -39,3 +39,14 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 120
+
+
+[tool.semantic_release]
+version_source = "tag"
+branch = "main"
+upload_to_pypi = false
+build_command = "python -m build"
+
+[tool.semantic_release.publish]
+dist_glob_patterns = ["dist/*"]
+upload_to_pypi = true
