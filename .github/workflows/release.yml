@@ -19,6 +19,11 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Install release tooling
         run: |
           pip install python-semantic-release build twine
@@ -28,4 +33,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
-        run: semantic-release publish
+        run: semantic-release version && semantic-release publish

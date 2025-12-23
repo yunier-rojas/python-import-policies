@@ -42,11 +42,14 @@ line-length = 120
 
 
 [tool.semantic_release]
-version_source = "tag"
+version_toml = ["pyproject.toml:tool.poetry.version"]
+version_variables = []
 branch = "main"
-upload_to_pypi = false
+upload_to_pypi = true
+upload_to_vcs_release = true
 build_command = "python -m build"
 
 [tool.semantic_release.publish]
 dist_glob_patterns = ["dist/*"]
 upload_to_pypi = true
+upload_to_vcs_release = true
