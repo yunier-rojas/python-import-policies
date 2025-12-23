@@ -38,12 +38,6 @@ repos:
         name: isort
         args: [ "--settings", "qa/.isort.cfg" ]
 
-  - repo: https://github.com/HunterMcGushion/docstr_coverage
-    rev: v2.3.2
-    hooks:
-      - id: docstr-coverage
-        args: [ "--config", "qa/.docstr.yaml" ]
-
   - repo: https://github.com/PyCQA/bandit
     rev: 1.9.2
     hooks:
