@@ -3,25 +3,27 @@ name = "python-import-policies"
 version = "1.0.0"
 description = "Import Policies"
 license = "MIT"
-authors = ["Yunier Rojas <yunier@sombra.cc>"]
+authors = ["Yunier Rojas <yunier.rojas@gmail.com>"]
 readme = "README.md"
 packages = [{ include = "import_policies" }]
 maintainers = [
     "Yunier Rojas García <yunier.rojas@gmail.com>",
 ]
-repository = "https://gitlab.com/sombrahq/python-libs/python-import-policies"
+repository = "https://github.com/yunier-rojas/python-import-policies"
 keywords = ["python", "import", "policy"]
 classifiers = [
-    'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.13',
+    'Programming Language :: Python :: 3.14',
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
 ]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-import-linter = "^1.12.1"
+python = ">=3.10,<4.0"
+import-linter = "^2.9"
 
 [tool.poetry.group.ci.dependencies]
 python-semantic-release = "^8.3.0"

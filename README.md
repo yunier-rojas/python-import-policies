@@ -38,9 +38,5 @@ lint-imports
 
 For more information visit [import-linter](https://import-linter.readthedocs.io/) website.
 
-
-## Contributing
-We welcome contributions from the community! If you find a bug, have a feature request, or want to contribute code, please open an issue or submit a pull request on our [Gitlab repository](https://gitlab.com/sombrahq/python-libs/python-import-policies).
-
 ## License
 MIT License
