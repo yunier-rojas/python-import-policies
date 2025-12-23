@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-import-policies"
-version = "1.1.1"
+version = "1.1.2"
 description = "Import Policies"
 license = "MIT"
 authors = ["Yunier Rojas <yunier.rojas@gmail.com>"]
